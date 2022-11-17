@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.recipe-cont{
+	width: 100%;
+	height: 100vh;
+}
+.recipe1{
+	width:100%;
+	height: auto;
+	padding: 50px;
+}
+.img2{
+	width: 100%;
+	height: 200px;
+	background: lightgrey;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.img2 img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+
+}
+.rec-details{
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.rec-details h1{
+	font-family: 'Marhey', cursive;
+	padding-bottom: 15px;
+}
+.rec-details h2{
+	font-family: 'Poppins',sans-serif;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.rec-details ul{
+	padding-left: 50px;
+}
+.rec-details ol{
+	padding-left: 50px;
+}
+.rec-details li{
+	padding: 10px 0px;
+	font-family: 'Poppins',sans-serif;
+}
